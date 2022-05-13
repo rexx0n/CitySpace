@@ -49,4 +49,65 @@ header {
   font-weight: 400;
   font-size: 15px;
   line-height: 130%;
+  color: #88c558;
+}
+.block {
+  height: 980px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../img/office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.block h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  color: white;
+  line-height: 110%;
+  padding: 0px 0px 100px 60px;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1216px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  margin-top: 180px;
+}
+h4 {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 70px;
+  line-height: 110%;
+  color: rgba(0, 0, 0, 0.15);
+}
+.Areas-of-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Areas-of-work__item p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 110%;
+  margin-left: 24px;
+}
+.Areas-of-work__item p span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.Areas-of-work__item {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+.Areas-of-work__item--margin {
+  margin-right:26px; 
 }
