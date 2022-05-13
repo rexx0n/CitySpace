@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.logo {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.logo__svg {
+  /*переделать*/
+  position: absolute;
+  top: 11px;
+  left: 29px;
+}
+.logo__text {
+    margin-left: 18px;
+    margin-right: 3px;
+}
+header {
+    display: flex;
+}
