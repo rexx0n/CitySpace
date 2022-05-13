@@ -5,20 +5,48 @@
   font-family: "Inter", sans-serif;
 }
 .logo {
-  margin-left: 20px;
   display: flex;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .logo__svg {
   /*переделать*/
   position: absolute;
-  top: 11px;
-  left: 29px;
+  top: 31px;
+  left: 69px;
 }
 .logo__text {
-    margin-left: 18px;
-    margin-right: 3px;
+  margin-left: 18px;
+  margin-right: 3px;
 }
 header {
-    display: flex;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 40px;
+}
+.information__address {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  margin-right: 40px;
+}
+.information {
+  display: flex;
+  text-align: end;
+}
+.information__contact {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
 }
