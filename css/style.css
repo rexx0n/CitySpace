@@ -187,6 +187,36 @@ h4 {
   max-width: 592px;
   margin-top: 40px;
   font-weight: 400;
-font-size: 20px;
-line-height: 160%;
+  font-size: 20px;
+  line-height: 160%;
+}
+.map {
+  margin-top: 80px;
+}
+.map img {
+  position: absolute;
+}
+.map h1 {
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 110%;
+}
+.map h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: rgba(0, 0, 0, 0.8);
+  font-style: normal;
+}
+.map__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 160px;
+}
+.map__text p {
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 110%;
 }
