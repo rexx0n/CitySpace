@@ -109,5 +109,68 @@ h4 {
   margin-top: 60px;
 }
 .Areas-of-work__item--margin {
-  margin-right:26px; 
+  margin-right: 26px;
+}
+.about {
+  display: flex;
+  margin-top: 187px;
+  justify-content: space-between;
+}
+.about__area h1 {
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 110%;
+  margin-bottom: 21px;
+}
+.about__area p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+.about__info {
+  display: flex;
+  align-items: flex-end;
+  max-width: 501px;
+}
+.about__info p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 60px;
+}
+.info__fit-out h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  margin: 0;
+}
+.info {
+  margin-top: 60px;
+}
+.info__area h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+}
+.info__area h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 110%;
+  max-width: 148px;
+  margin-left: 20px;
+}
+.info__area {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+}
+.info__fit-out p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  max-width: 599px;
+  margin-top: 32px;
 }
