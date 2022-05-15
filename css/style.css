@@ -192,6 +192,7 @@ h4 {
 }
 .map {
   margin-top: 80px;
+  background-image: url(../img/path2830.png);
 }
 .map img {
   position: absolute;
@@ -219,4 +220,32 @@ h4 {
   font-weight: 500;
   font-size: 90px;
   line-height: 110%;
+}
+.map h2 {
+  padding-top: 180px;
+  padding-bottom: 60px;
+}
+.service__block h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  padding-top: 20px;
+}
+.service__block p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 388px;
+  margin-bottom: 48px;
+  padding-top: 8px;
+}
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service__block h6 span {
+  color: #B2B2B2;
+  margin-left: 12px;
+  
 }
