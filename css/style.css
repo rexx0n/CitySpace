@@ -245,7 +245,27 @@ h4 {
   justify-content: space-between;
 }
 .service__block h6 span {
-  color: #B2B2B2;
+  color: #b2b2b2;
   margin-left: 12px;
-  
 }
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 142px;
+}
+.features__text p {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 562px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  padding: 16px 0 16px 0;
+}
+.features__text p span {
+  padding-right: 12px;
+  color:  #88C558;
+}
+.features__text h2 {
+  margin-bottom: 40px;
+}
+
