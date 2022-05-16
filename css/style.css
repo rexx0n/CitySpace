@@ -254,18 +254,21 @@ h4 {
   margin-top: 142px;
 }
 .features__text p {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  max-width: 562px;
+  max-width: 603px;
   font-weight: 400;
   font-size: 18px;
   line-height: 120%;
   padding: 16px 0 16px 0;
 }
-.features__text p span {
-  padding-right: 12px;
-  color:  #88C558;
-}
 .features__text h2 {
   margin-bottom: 40px;
 }
-
+.features__shooters {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.features__shooters span {
+  padding-right: 12px;
+  color: #88c558;
+}
