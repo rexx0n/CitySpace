@@ -258,17 +258,18 @@ h4 {
   font-weight: 400;
   font-size: 18px;
   line-height: 120%;
-  padding: 16px 0 16px 0;
 }
 .features__text h2 {
   margin-bottom: 40px;
 }
 .features__shooters {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 0 16px 0;
 }
 .features__shooters span {
   padding-right: 12px;
   color: #88c558;
+  
 }
