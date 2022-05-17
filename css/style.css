@@ -281,12 +281,6 @@ h4 {
   align-items: center;
   margin-bottom: 60px;
 }
-.projects__header h6 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 150%;
-  color: #88c558;
-}
 .projects p {
   font-weight: 500;
   font-size: 18px;
@@ -304,4 +298,45 @@ h4 {
   margin-top: 32px;
   display: flex;
   justify-content: space-between;
+}
+.projects__header h6 a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #88c558;
+}
+.team {
+  margin-top: 180px;
+}
+.team__human h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110%;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.team__human span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  padding-left: 24px;
+  padding-top: 4px;
+}
+.team__human {
+  background-color: #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+}
+.team__people {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.team__img {
+  padding:18px 56px 0 56px;
+}
+.team__img--padding {
+  padding: 18px 18px 0 18px;
 }
