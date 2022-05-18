@@ -340,3 +340,26 @@ h4 {
 .team__img--padding {
   padding: 18px 18px 0 18px;
 }
+.team__underside {
+  display: flex;
+  max-width: 384px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team__underside div {
+  background-color: #EFEFEF;
+  max-width: 176px;
+  padding-top: 16px;
+  margin-bottom: 32px;
+}
+.team__column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.team__img--padding2 {
+  padding: 0 70px 0 55px;
+}
+.team__png {
+  padding-left: 21px;
+}
