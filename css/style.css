@@ -324,7 +324,7 @@ h4 {
   padding-top: 4px;
 }
 .team__human {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   display: flex;
   flex-direction: column;
   max-width: 384px;
@@ -335,7 +335,7 @@ h4 {
   margin-top: 48px;
 }
 .team__img {
-  padding:18px 56px 0 56px;
+  padding: 18px 56px 0 56px;
 }
 .team__img--padding {
   padding: 18px 18px 0 18px;
@@ -347,7 +347,7 @@ h4 {
   justify-content: space-between;
 }
 .team__underside div {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   max-width: 176px;
   padding-top: 16px;
   margin-bottom: 32px;
@@ -360,4 +360,25 @@ h4 {
 }
 .team__img--padding2 {
   padding: 0 70px 0 55px;
+}
+.excurs__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.excurs {
+  margin-top: 148px;
+}
+.excurs__header p span {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  color: #a7cc4a;
+}
+.excurs__header p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 181px;
 }
