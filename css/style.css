@@ -382,3 +382,22 @@ h4 {
   color: rgba(0, 0, 0, 0.5);
   max-width: 181px;
 }
+.excurs__lenta {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 64px;
+}
+.excurs__lenta p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #14191d;
+  max-width: 280px;
+}
+.excurs__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  max-width: 904px;
+  margin-top: 64px;
+}
