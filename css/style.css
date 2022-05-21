@@ -401,3 +401,23 @@ h4 {
   max-width: 904px;
   margin-top: 64px;
 }
+.team__last img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.team__last {
+  position: relative;
+}
+.team__last p {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  line-height: 110%;
+}
+.team__last span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+}
