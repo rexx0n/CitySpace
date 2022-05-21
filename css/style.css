@@ -435,6 +435,8 @@ footer {
   font-weight: 400;
   font-size: 18px;
   line-height: 120%;
+  display: flex;
+  padding-bottom: 19px;
 }
 .contacts__column p {
   color: rgba(0, 0, 0, 0.5);
