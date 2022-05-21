@@ -421,3 +421,30 @@ h4 {
   font-size: 16px;
   line-height: 110%;
 }
+footer {
+  background-color: #F5F5F5;
+  margin-top: 180px;
+}
+.contacts {
+  padding-top: 120px;
+}
+.contacts__info h2 {
+  padding-bottom: 40px;
+}
+.contacts__block {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+}
+.contacts__column p {
+  color: rgba(0, 0, 0, 0.5);
+  padding-right: 40px;
+  padding-bottom: 21px;
+}
+.contacts__column2 p {
+  color: #88C558;
+  padding-bottom: 21px;
+}
+.contacts__column2 span {
+  color: black;
+}
