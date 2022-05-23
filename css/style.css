@@ -497,3 +497,27 @@ footer {
 .contacts__textfield--padding {
   padding-bottom: 87px;
 }
+.bottomMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+footer .menu a{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 110%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 32px;
+}
+.bottomMenu p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.3);
+}
+.bottomMenu__text {
+  text-align: right;
+}
