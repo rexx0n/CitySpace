@@ -9,12 +9,13 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
 }
 .logo__svg {
   /*переделать*/
   position: absolute;
   top: 31px;
-  left: 69px;
+  left: 9px;
 }
 .logo__text {
   margin-left: 18px;
@@ -429,6 +430,7 @@ footer {
   padding-top: 120px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 80px;
 }
 .contacts__info h2 {
   padding-bottom: 40px;
@@ -491,4 +493,7 @@ footer {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
+}
+.contacts__textfield--padding {
+  padding-bottom: 87px;
 }
