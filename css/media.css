@@ -13,4 +13,16 @@
     .block {
         height: 770px;
     }
+    h2 {
+        font-size: 34px;
+    }
+    .areas-of-work h4 {
+        font-size: 52px;
+    }
+    .Areas-of-work__item p {
+        font-size: 24px;
+    }
+    .Areas-of-work__item p span {
+        font-size: 16px;
+    }
 }
