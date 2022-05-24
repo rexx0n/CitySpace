@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px) {
+    .menu a {
+        opacity: 0;
+        position: absolute;
+    }
+    header img {
+        opacity: 1;
+        
+    }
+    .block h1 {
+        font-size: 41px;
+    }
+    .block {
+        height: 770px;
+    }
+}
