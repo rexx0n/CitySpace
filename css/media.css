@@ -5,13 +5,20 @@
     }
     header img {
         opacity: 1;
-        
+    }
+    header {
+        padding-left: 0;
     }
     .block h1 {
-        font-size: 41px;
+        font-size: 30px;
+        padding-left: 12px;
     }
     .block {
-        height: 770px;
+        height: 644px;
+        margin-bottom: 100px;
+    }
+    .information {
+        opacity: 0;
     }
     h2 {
         font-size: 34px;
@@ -24,5 +31,23 @@
     }
     .Areas-of-work__item p span {
         font-size: 16px;
+    }
+    .about {
+        margin-top: 130px;
+    }
+    .about__area h1 {
+    font-size: 30px
+    }
+    .about__area p {
+        font-size: 14px;
+    }
+    .about__info {
+        max-width: 168px;
+    }
+    .about__info p {
+        font-size: 15px;
+    }
+    .info {
+        flex-direction: column;
     }
 }

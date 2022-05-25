@@ -37,7 +37,7 @@ header {
   font-size: 15px;
   margin-right: 40px;
 }
-.menu img {
+header img {
   opacity: 0;
 }
 .information__address {
