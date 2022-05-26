@@ -39,7 +39,7 @@
     }
     .about {
         margin-top: 130px;
-        max-width: 400px;
+        margin-right: 0;
     }
     .about__area h1 {
         font-size: 30px
@@ -47,8 +47,8 @@
     .about__area p {
         font-size: 14px;
     }
-    .about__info {
-        max-width: 168px;
+    .about__area {
+        min-width: 193px;
     }
     .about__info p {
         font-size: 15px;
@@ -63,7 +63,7 @@
         font-size: 39px;
     }
     .info__area h3 {
-        font-size: 36px;
+        font-size: 30px;
     }
     .info__area h5 {
         font-size: 17px;
@@ -73,7 +73,7 @@
         max-width: 430px;
     }
     .info__fit-out img {
-        max-width: 444px;
+        max-width: 330px;
     }
     .about-us img {
         opacity: 0;
