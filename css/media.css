@@ -70,7 +70,7 @@
     }
     .info__fit-out p {
         font-size: 19px;
-        max-width: 430px;
+        max-width: 340px;
     }
     .info__fit-out img {
         max-width: 330px;
@@ -80,6 +80,24 @@
         position: absolute;
     }
     .about-us__info p {
-        max-width: 430px;
+        max-width: 360px;
+        font-size: 17px;
+    }
+    .map {
+        background-image: none;
+        margin: 0;
+    }
+    .service__block img {
+        max-width: 340px;
+    }
+    .map h1 {
+        font-size: 60px;
+    }
+    .features__text {
+        max-width: 331px;
+    }
+    .features img {
+        opacity: 0;
+        position: absolute;
     }
 }
