@@ -47,6 +47,11 @@ header img {
   line-height: 140%;
   margin-right: 40px;
 }
+.features__shooters::before {
+  content: "→";
+  padding-right: 12px;
+  color: #88c558;
+}
 .information {
   display: flex;
   text-align: end;
