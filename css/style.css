@@ -112,7 +112,7 @@ h4 {
   line-height: 110%;
   margin-left: 24px;
 }
-.Areas-of-work__item p span {
+.Areas-of-work__item  span {
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
@@ -263,6 +263,9 @@ h4 {
   color: #b2b2b2;
   margin-left: 12px;
 }
+.excurs__header h2 {
+  max-width: 705px;
+}
 .features {
   display: flex;
   justify-content: space-between;
@@ -383,6 +386,9 @@ figure p span {
 }
 .excurs {
   margin-top: 148px;
+}
+.information__address p {
+  max-width: 221px;
 }
 .excurs__header p span {
   font-weight: 900;
@@ -534,4 +540,15 @@ footer .menu a{
 }
 .bottomMenu__text {
   text-align: right;
+  max-width: 130px;
+}
+.continued {
+  text-align: center;
+  color: #88C558;
+  font-size:  20px;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  position: absolute;
+
 }
