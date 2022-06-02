@@ -49,14 +49,10 @@
     .about__area p {
         font-size: 14px;
     }
-    .about__area {
-        min-width: 193px;
-    }
     .about__info p {
         font-size: 15px;
     }
     .about__info {
-        max-width: 375px;
         padding-top: 10px;
     }
     .info {
@@ -64,7 +60,7 @@
         align-items: center;
     }
     .container {
-        margin-left: 20px;
+        padding-left: 20px;
     }
     .info__fit-out h2 {
         font-size: 35px;
@@ -77,7 +73,6 @@
     }
     .info__fit-out p {
         font-size: 19px;
-        max-width: 320px;
     }
     .info__fit-out img {
         max-width: 330px;
@@ -91,7 +86,6 @@
         justify-content: center;
     }
     .about-us__info p {
-        max-width: 304px;
         font-size: 17px;
     }
     .map {
@@ -103,9 +97,6 @@
     }
     .map h1 {
         font-size: 60px;
-    }
-    .features__text {
-        max-width: 331px;
     }
     .features img {
         opacity: 0;
@@ -142,7 +133,6 @@
     .team__people {
         flex-direction: column;
         align-items: center;
-        max-width: 300px;
     }
     .team__human {
         max-width: 320px;
@@ -150,7 +140,6 @@
         width: 100%;
     }
     .team__column {
-        max-width: 320px;
         flex-direction: column;
         opacity: 0;
         position: absolute;
@@ -169,9 +158,6 @@
     .excurs__header p {
         margin-top: 10px;
     }
-    .excurs__text {
-        max-width: 318px;
-    }
     .excurs__lenta {
         opacity: 0;
         position: absolute;
@@ -181,9 +167,15 @@
         flex-direction: column;
     }
     .iframe{
-        max-width: 300px;
+        max-width: 340px;
     }
     .contacts__textfield {
         font-size: 12px;
+    }
+    .contacts__info {
+        padding-bottom: 20px;
+    }
+    .contacts__text button {
+        padding: 13px 70px 12px 70px;
     }
 }
